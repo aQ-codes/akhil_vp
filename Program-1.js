@@ -1,3 +1,5 @@
+/* calculator program which performs operations such as Addition, Subtraction, Multiplication and Division using class*/
+
 class Calculator{
   constructor(a,b){
     this.a = a;
@@ -25,7 +27,8 @@ class Calculator{
 }
 
 try {
-  const [,, aString, bString, operation] = process.argv; // command line args 
+  //take input from command line 
+  const [,, aString, bString, operation] = process.argv; //command line args
   const a = Number(aString); //converting string to number
   const b = Number(bString); 
   const op = operation; //operation to be performed
