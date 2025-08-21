@@ -15,7 +15,7 @@ try{
   // Generate series of odd numbers
   let result = [];
   for (let i = 1; i <= a; i++) {
-      result.push(2 * i - 1); // formula for nth odd number 2n-1
+      result.push((2 * i) - 1); // formula for nth odd number 2n-1
   }
 
   console.log(result.join(", "));//converting list to string 
