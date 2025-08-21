@@ -3,7 +3,7 @@
 function countMultiples(arr) {
     const result = {};
     for (let i = 1; i <= 9; i++) {
-        result[i] = arr.filter(num => num % i === 0).length;
+        result[i] = arr.filter(num => num % i === 0).length; //assigns the length of filered array to each i 
     }
     return result;
 }
