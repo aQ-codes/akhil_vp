@@ -1,3 +1,5 @@
+//total count of number listed in the dictionary which is multiple of 1 to 9
+
 function countMultiples(arr) {
     const result = {};
     for (let i = 1; i <= 9; i++) {
