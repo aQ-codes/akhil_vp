@@ -65,4 +65,7 @@ try {
 
 /*--How to run example--
 node Program-1.js 4 5 add
+node Program-1.js 4 5 sub
+node Program-1.js 4 5 mul
+node Program-1.js 16 8 div
 */
