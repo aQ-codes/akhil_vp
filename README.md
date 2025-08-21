@@ -9,7 +9,7 @@ How to Run:
 1. Problem-1 (Calculator)
    - Run: node Problem-1.js a b operation
    - Example: node Problem-1.js 5 3 add
-   - Supported operations: add, subtract, multiply, divide
+   - Supported operations: add(add), subtract(sub), multiply(mul), divide(div)
 
 2. Problem-2 
    - Run: node Problem-2.js a
@@ -28,3 +28,4 @@ Notes:
 - Problem 4 uses a function with a fixed input array.
 - In problem 4 since JS doesn’t have a native dictionary i used an object ({}) to store counts.
 - All programs include error handling with try/catch.
+
